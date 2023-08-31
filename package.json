@@ -21,7 +21,6 @@
     "react-vertical-timeline-component": "^3.6.0",
     "TagCloud": "^2.3.2",
     "typewriter-effect": "^2.20.1",
-    "vertical-timeline-component-for-react": "^1.0.7",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
