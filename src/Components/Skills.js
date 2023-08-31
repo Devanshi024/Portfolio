@@ -28,7 +28,6 @@ const Skills = () => {
         "SQLite",
         "MySQL",
         "Azure",
-        
       ];
 
       const options = {
@@ -40,7 +39,7 @@ const Skills = () => {
 
       TagCloud(container, texts, options);
     };
-  }, []);
+  });
 
   return (
     <>
