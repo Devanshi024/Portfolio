@@ -367,6 +367,32 @@ a{
   border-radius: 160px;
   margin-left: 10px;
 }
+.social {
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.social a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  backdrop-filter: brightness(88%);
+  font-size: 20px;
+  margin-right: 17px;
+  box-shadow: 0 0 20px transparent;
+  cursor: pointer;
+  transition: all .55s ease;
+}
+
+.social a:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 20px #804dee;
+}
+
 @keyframes updown {
     0% {
         transform: translateY(-20px);

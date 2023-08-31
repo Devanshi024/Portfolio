@@ -4,32 +4,32 @@ import './style.css';
 // Importing TagCloud package
 import TagCloud from "TagCloud";
 
+
 const Skills = () => {
+   const texts = [
+    "HTML",
+    "CSS",
+    "JAVA",
+    "JavaScript",
+    "ReactJS",
+    "Bootstrap",
+    "Python",
+    "Django",
+    "Software Testing",
+    "Jira",
+    "PHP",
+    "GIT",
+    "GITHUB",
+    "IOT",
+    "FireBase",
+    "SQLite",
+    "MySQL",
+    "Azure",
+  ];
   // Animation settings for Text Cloud
   useEffect(() => {
-    return () => {
       const container = ".tagcloud";
-      const texts = [
-        "HTML",
-        "CSS",
-        "JAVA",
-        "JavaScript",
-        "ReactJS",
-        "Bootstrap",
-        "Python",
-        "Django",
-        "Software Testing",
-        "Jira",
-        "PHP",
-        "GIT",
-        "GITHUB",
-        "IOT",
-        "FireBase",
-        "SQLite",
-        "MySQL",
-        "Azure",
-      ];
-
+      console.log(container);
       const options = {
         radius: 300,
         maxSpeed: "normal",
@@ -38,8 +38,8 @@ const Skills = () => {
       };
 
       TagCloud(container, texts, options);
-    };
-  });
+  },[]);
+
 
   return (
     <>

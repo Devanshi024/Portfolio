@@ -3,6 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import headerImg from "../Assets/signature1.jpeg";
 import { ArrowRightCircle } from 'react-bootstrap-icons';
 import TrackVisibility from 'react-on-screen';
+import {AiFillLinkedin,AiFillGithub,AiFillInstagram} from 'react-icons/ai';
 import './style.css';
 
 const Banner = () => {
@@ -58,7 +59,13 @@ const Banner = () => {
               {/* <span className="tagline">Welcome to my Portfolio</span> */}
               <h1>{`Hi! I'm Devanshi`}<br/> <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Web Developer", "Web Designer", "UI/UX Designer" ]'><span className="wrap">{text}</span></span></h1>
                 {<p>Greetings! I'm Devanshi Thakkar, a motivated B.Tech student at LD College of Engineering. I am eager to expand my skills and knowledge by joining an esteemed IT firm. With a strong determination to excel, I am ready to contribute my best towards the growth and success of your organization.</p> }
+                
                 <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button>
+                <div className="social">
+                        <a href="https://www.linkedin.com/in/devanshi-thakkar-aa2a981b4/" target="_blank"><AiFillLinkedin/></a>
+                        <a href="https://github.com/Devanshi024" target="_blank"><AiFillGithub/></a>
+                        <a href="https://www.instagram.com/__devanshi__24/" target="_blank"><AiFillInstagram/></a>
+                </div>
             </div>}
           </TrackVisibility> }
           </Col>
