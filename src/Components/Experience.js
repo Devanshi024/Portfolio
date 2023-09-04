@@ -25,7 +25,7 @@ export default function Experience() {
             Nityajal is startup based on watering plants from remote locations through your smartphone via android application. Website is developed using ReactJS, HTML, CSS and Bootstrap.
           </p>
         </VerticalTimelineElement>
-        <VerticalTimelineElement
+        {/* <VerticalTimelineElement
           className="vertical-timeline-element--work"
           contentStyle={{ background: 'rgb(4, 110, 110)', color: '#fff' }}
           contentArrowStyle={{ borderRight: '7px solid  rgb(4, 110, 110)' }}
@@ -38,7 +38,7 @@ export default function Experience() {
           <p>
             Nityajal is startup based on watering plants from remote locations through your smartphone via android application. Website is developed using ReactJS, HTML, CSS and Bootstrap.
           </p>
-        </VerticalTimelineElement>
+        </VerticalTimelineElement> */}
 
       </VerticalTimeline>
 

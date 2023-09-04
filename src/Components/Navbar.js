@@ -1,7 +1,5 @@
 import { useState } from 'react';
-import { NavLink, BrowserRouter, Route, Routes, Link } from 'react-router-dom';
 import { ReactComponent as Hamburger } from '../Assets/pre.svg';
-import { ReactComponent as Brand } from '../Assets/pre.svg';
 import './style.css';
 import Nav from 'react-bootstrap/Nav';
 import Banner from './Banner';
@@ -34,7 +32,7 @@ function Navbar() {
                 onClick={handleClick}
                 spy={true} smooth={true} offset={50} duration={500}
               >
-                Home
+                About
                 </Nav.Link>
             </li>
              <li className="nav-item">

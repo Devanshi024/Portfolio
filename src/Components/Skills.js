@@ -15,7 +15,7 @@ const Skills = () => {
     "Bootstrap",
     "Python",
     "Django",
-    "Software Testing",
+    "S/F Testing",
     "Jira",
     "PHP",
     "GIT",

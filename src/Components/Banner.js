@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import headerImg from "../Assets/signature1.jpeg";
+import headerImg from "../Assets/devanshi.jpeg";
 import { ArrowRightCircle } from 'react-bootstrap-icons';
 import TrackVisibility from 'react-on-screen';
 import {AiFillLinkedin,AiFillGithub,AiFillInstagram} from 'react-icons/ai';
@@ -57,8 +57,8 @@ const Banner = () => {
             {({ isVisible }) =>
             <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
               {/* <span className="tagline">Welcome to my Portfolio</span> */}
-              <h1>{`Hi! I'm Devanshi`}<br/> <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Web Developer", "Web Designer", "UI/UX Designer" ]'><span className="wrap">{text}</span></span></h1>
-                {<p>Greetings! I'm Devanshi Thakkar, a motivated B.Tech student at LD College of Engineering. I am eager to expand my skills and knowledge by joining an esteemed IT firm. With a strong determination to excel, I am ready to contribute my best towards the growth and success of your organization.</p> }
+              <h1>{`Hi! I'm Devanshi`}<br/> <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Web Developer", "Cloud Computing" ]'><span className="wrap">{text}</span></span></h1>
+                {<p>🌟 Meet Devanshi Thakkar, a passionate B.Tech student from LD College of Engineering, ready to infuse innovation into your IT firm. With her dedication, we're set to soar to new heights of success together! 🚀</p> }
                 
                 <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button>
                 <div className="social">

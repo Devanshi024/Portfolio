@@ -158,7 +158,7 @@ p.danger {
   display: none;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 600px) {
   .menu-icon {
     display: block;
     cursor: pointer;
