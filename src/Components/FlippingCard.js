@@ -16,7 +16,7 @@ export default function ProjectCards() {
       <br />
             <div className="card-container">
             <FlippingCard frontImage={chatbot} name="ChatBOT"
-              gitLink="https://github.com/Devanshi024/NoticeHUB" backContent="Create a powerful chatbot using HTML, CSS, and JavaScript to enhance audience engagement and provide instant responses,  this chatbot will elevate your customer experience to new heights." />
+              gitLink="https://github.com/Devanshi024/ChatBot" backContent="Create a powerful chatbot using HTML, CSS, and JavaScript to enhance audience engagement and provide instant responses,  this chatbot will elevate your customer experience to new heights." />
             <FlippingCard frontImage={Noticehub} name="NoticeHUB" gitLink="https://github.com/Devanshi024/NoticeHUB" backContent="NoticeHUB is a CRUD based Django application to manage notice." />
             <FlippingCard frontImage={covid} name="Combating COVID_19" gitLink="https://github.com/Devanshi024/Combating-Covid-19-with-IOT" backContent="Proposed an IOT based attendance system with PHP for maintaining COVID safety guidelines.
             Selected for SSIP grant of 10,000." />
