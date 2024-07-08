@@ -1,0 +1,49 @@
+body {
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+  background-color: #222;
+  color: #fff;
+}
+
+.App {
+  text-align: center;
+  padding: 10px;
+}
+
+.skills-container {
+  display: flex;
+  justify-content: center;
+}
+
+.skill {
+  background-color: #333;
+  margin: 10px;
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 200px;
+  border: 2px solid #464680 !important;
+  transition: transform 0.2s;
+}
+
+.skill:hover {
+  transform: scale(1.05);
+}
+
+.icon img {
+  width: 50px; /* Adjust size as needed */
+  height: 50px; /* Adjust size as needed */
+  margin-bottom: 10px;
+}
+
+.title {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.skills-container .css-1xnaaoc-MuiGrid-root>.MuiGrid-item{
+  padding-left: 70px !important;
+}

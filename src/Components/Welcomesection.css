@@ -1,0 +1,125 @@
+*{
+    background-color: #1c1c3b !important;
+}
+.welcome-section {
+    background-color: #1c1c3b;
+    color: white;
+    text-align: center;
+    padding: 50px;
+    position: relative;
+}
+
+.quick-edit {
+    position: absolute;
+    /* top: 10px;
+    left: 10px; */
+    background-color: white;
+    color: black;
+    /* padding: 5px 10px; */
+    border-radius: 5px;
+}
+
+h1 {
+    font-size: 3em;
+    margin: 0;
+}
+
+p {
+    font-size: 0.9rem;
+    margin: 0px 0;
+}
+
+.social-icons a {
+    margin: 0 10px;
+    color: white;
+    font-size: 2em;
+}
+
+.profile-picture img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+.main-content{
+    margin: 0 auto !important;
+    display: flex  !important;
+    /* gap:20px !important; */
+    justify-content: flex-start !important;
+    flex-direction: column !important;
+    align-items: flex-start !important;
+}
+.welcome-data-container{
+    display: flex !important;
+    align-items: flex-start !important;
+    justify-content: flex-start !important;
+    flex-direction: column !important;
+    /* gap:20px */
+}.welcome-section {
+    padding: 40px;
+    background-color: #f0f0f0;
+    text-align: center;
+}
+
+.main-content {
+    padding: 20px;
+}
+
+.welcome-data-container {
+    text-align: left;
+    font-family: 'Arial', sans-serif; /* Example font family */
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.welcome-data-container h1{
+    font-size: 28px;
+    font-weight: normal; /* Ensure no bold */
+    margin: 0;
+}
+.welcome-data-container h3 {
+    font-size: 20px;
+    font-weight: normal; /* Ensure no bold */
+    margin-top: 20px;
+}
+
+
+.welcome-data-container p.description {
+    font-size: 16px;
+    margin: 10px 0;
+    color: #6464d3 !important;
+}
+
+.welcome-data-container p.about-me {
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: #6464d3 !important;
+
+}
+
+.social-icons {
+    margin-top: 20px;
+}
+
+.social-icons a {
+    margin-right: 10px;
+}
+
+.profile-picture {
+    margin-top: 20px;
+}
+
+.profile-picture img {
+    max-width: 100%;
+    height: auto;
+}
+
+.custom-divider {
+    margin: 40px 0;
+}
+
+.custom-divider {
+    margin: 20px auto !important; /* Adjust top and bottom margin if needed */
+    width: calc(100% - 40px) !important;
+    background-color: aliceblue !important;
+  }
