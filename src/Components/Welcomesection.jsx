@@ -1,5 +1,4 @@
 import React from 'react';
-import { FaLinkedin, FaGithub } from 'react-icons/fa';
 import './Welcomesection.css'; // Import the CSS file for styling
 import Grid from '@mui/material/Grid';
 import myImage from '../assests/devanshi.jpeg';
@@ -7,8 +6,8 @@ import Divider from '@mui/material/Divider';
 import peerlist from "../assests/peerlist.jpg"; // Ensure correct import
 import resume from "../assests/DA_DEVANSHI_THAKKAR_RESUME.pdf"
 import resume_icon from "../assests/CV icon.png"
-import github from "../assests/github.webp"
 import linkedin from "../assests/linkedin.png"
+import { FaGithub } from 'react-icons/fa';
 
 const WelcomeSection = () => {
     return (
@@ -30,7 +29,7 @@ const WelcomeSection = () => {
                                 <img src={linkedin} alt="CV" style={{ width: "40px", height: "40px" }} />
                                 </a>
                                 <a href="https://github.com/Devanshi024/" target="_blank" rel="noopener noreferrer">
-                                <img src={github} alt="CV" style={{ width: "40px", height: "40px" }} />
+                                <FaGithub size={40} className="contact-icon" />
                                 </a>
                                 <a href="https://peerlist.io/devanshi24" target="_blank" rel="noopener noreferrer">
                                     <img src={peerlist} alt="Peerlist" style={{ width: "35px", height: "35px" }} />
