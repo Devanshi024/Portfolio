@@ -6,6 +6,7 @@ body {
 }
 
 .App {
+  margin: 0 auto !important;
   text-align: center;
   padding: 10px;
 }
@@ -46,4 +47,10 @@ body {
 
 .skills-container .css-1xnaaoc-MuiGrid-root>.MuiGrid-item{
   padding-left: 70px !important;
+  margin-left: 0 !important;
+}
+
+.App .css-10b2kbk{
+  width: 0 !important;
+  left : 10px !important;
 }
