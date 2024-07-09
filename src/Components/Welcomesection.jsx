@@ -5,6 +5,10 @@ import Grid from '@mui/material/Grid';
 import myImage from '../assests/devanshi.jpeg';
 import Divider from '@mui/material/Divider';
 import peerlist from "../assests/peerlist.jpg"; // Ensure correct import
+import resume from "../assests/DA_DEVANSHI_THAKKAR_RESUME.pdf"
+import resume_icon from "../assests/CV icon.png"
+import github from "../assests/github.webp"
+import linkedin from "../assests/linkedin.png"
 
 const WelcomeSection = () => {
     return (
@@ -23,13 +27,16 @@ const WelcomeSection = () => {
                             </p>
                             <div className="social-icons">
                                 <a href="https://www.linkedin.com/in/devanshi-thakkar-aa2a981b4/" target="_blank" rel="noopener noreferrer">
-                                    <FaLinkedin />
+                                <img src={linkedin} alt="CV" style={{ width: "40px", height: "40px" }} />
                                 </a>
                                 <a href="https://github.com/Devanshi024/" target="_blank" rel="noopener noreferrer">
-                                    <FaGithub />
+                                <img src={github} alt="CV" style={{ width: "40px", height: "40px" }} />
                                 </a>
                                 <a href="https://peerlist.io/devanshi24" target="_blank" rel="noopener noreferrer">
-                                    <img src={peerlist} alt="Peerlist" style={{ width: "30px", height: "30px" }} />
+                                    <img src={peerlist} alt="Peerlist" style={{ width: "35px", height: "35px" }} />
+                                </a>
+                                <a href={resume} target="_blank" rel="noopener noreferrer">
+                                    <img src={resume_icon} alt="CV" style={{ width: "40px", height: "40px" }} />
                                 </a>
                             </div>
                         </Grid>
