@@ -17,7 +17,7 @@ const WelcomeSection = () => {
                     <Grid item xs={12} md={8} className='main-content'>
                         <Grid container className='welcome-data-container'>
                             <h1>Hello, I'm <span style={{color:"#f06c5b"}}> Devanshi</span></h1>
-                            <h3><span style={{color:"#f06c5b"}}>Data Enthusiast | Excel | SQL | PowerBI </span></h3>
+                            <h3><span style={{color:"#f06c5b"}}>Data Enthusiast | Excel | SQL | PowerBI | 4 Star HackerRank</span></h3>
                             <p>
                                 "Empowering Insights: Connecting Data with Clarity for Future Challenges"
                             </p>

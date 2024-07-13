@@ -122,3 +122,24 @@ p {
     width: calc(100% - 40px) !important;
     background-color: aliceblue !important;
   }
+
+
+/* Media query for mobile devices */
+@media (max-width: 600px) {
+    .profile-picture img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .social-icons img,
+    .social-icons .contact-icon {
+        width: 30px;
+        height: 30px;
+    }
+
+    .welcome-data-container h1,
+    .welcome-data-container h3,
+    .welcome-data-container p {
+        font-size: smaller;
+    }
+}
